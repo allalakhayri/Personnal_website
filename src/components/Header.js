@@ -8,7 +8,7 @@ export const Header = ()=>{
      
     <Nav className="navbar">
     <div className="max-width">
-      <div className="logo"><a href="#">Mohamed<span>Khayri.</span></a></div>
+      <div className="logo"><a href="#home">Mohamed<span>Khayri.</span></a></div>
       <ul className="menu">
         <li><a href="#home" className="menu-btn" >Home</a></li>
         <li><a href="#about" className="menu-btn">About</a></li>                                    

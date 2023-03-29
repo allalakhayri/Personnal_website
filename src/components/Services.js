@@ -23,7 +23,7 @@ export const Services = ()=>{
                 <p>I am actually a computer science student specialised in Aritificial Intelligence and 
                   that's my main passion . I am active on Kaggle and I've participated in several 
                   AI competitions and Hackathons </p>
-                  < a href="https://www.kaggle.com/mohamedkhayriallala" target="_blank" className="serv-link">Kaggle</a>
+                  < a href="https://www.kaggle.com/mohamedkhayriallala" target="_blank" className="serv-link" rel='noreferrer'>Kaggle</a>
 
               </div>
             </div>
@@ -36,7 +36,7 @@ export const Services = ()=>{
                   I participated in Tunisian Collegiate Programming Contest (TCPC) in 2021 and since then 
                   I've been active on Codeforces platform.
                 </p>
-                < a href="https://codeforces.com/profile/kh_99" target="_blank" className="serv-link">Codeforces</a>
+                < a href="https://codeforces.com/profile/kh_99" target="_blank" className="serv-link" rel='noreferrer'>Codeforces</a>
               </div>
             </div>
           </div>

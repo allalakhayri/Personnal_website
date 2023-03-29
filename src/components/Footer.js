@@ -17,18 +17,18 @@ return (
 		<h3 className="follow-us">Follow me </h3>
 		<br/>
 		<a href="https://github.com/allalakhayri" target="_blank"
-		className="github social">
+		className="github social" rel='noreferrer'>
 		<FontAwesomeIcon icon={faGithub} size="3x" />
 		</a>
 
 		<a href="https://www.facebook.com/med.khayri.127" target="_blank"
-		className="facebook social">
+		className="facebook social" rel='noreferrer'>
 		<FontAwesomeIcon icon={faFacebook} size="3x" />
 		</a>
-		<a href="https://twitter.com/MedKhayri1"  target="_blank" className="twitter social">
+		<a href="https://twitter.com/MedKhayri1"  target="_blank" className="twitter social" rel='noreferrer'>
 		<FontAwesomeIcon icon={faTwitter} size="3x" />
 		</a>
-		<a href="https://www.linkedin.com/in/mohamed-khayri-allala-3a431721b/" target="_blank"
+		<a href="https://www.linkedin.com/in/mohamed-khayri-allala-3a431721b/" target="_blank" rel='noreferrer'
 		className="linkedin social">
 		<FontAwesomeIcon icon={faLinkedin} size="3x" />
 		</a>
