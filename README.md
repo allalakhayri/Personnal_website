@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Mohamed Khayri Allala's Personal Website
+This is the source code for Mohamed Khayri Allala's personal website. It was developed using ReactJS and deployed using Azure App Service. 
+The website can be accessed at www.mohamedkhayriallala.com.
+## Installation
+To run the project locally, follow these steps:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 1.Clone the repository to your local machine :
+git clone https://github.com/allalakhayri/Personnal_website.git
+### 2.Install the required dependencies
+cd your-repo-name
 
-## Available Scripts
+npm install @fortawesome/fontawesome-svg-core
 
-In the project directory, you can run:
+npm install @fortawesome/free-brands-svg-icons
 
-### `npm start`
+npm install @fortawesome/react-fontawesome
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+npm install react-bootstrap
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm install react-dom 
 
-### `npm test`
+npm install react-scripts web-vitals
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### 3.Start the development server:
+npm start 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 4.Open your browser and navigate to
+http://localhost:3000
+## Deployment
+To deploy the project to Azure App Service, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.Sign in to the Azure Portal
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2.Create a new Azure App Service instance by clicking on the "+ Create a resource" button and searching for "App Service"
 
-### `npm run eject`
+3.Configure the App Service instance by selecting the appropriate subscription, resource group, and app name
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4.Choose the appropriate operating system and runtime stack for your application (in this case, Windows and Node.js)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5.Configure deployment by setting up continuous deployment from your GitHub repository. This can be done by navigating to the "Deployment Center" blade in the App Service instance and selecting "GitHub" as the source control provider. Then follow the prompts to link your GitHub account and repository, and configure the build settings as needed.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+6.Wait for the deployment to complete. You can monitor the progress of the deployment from the "Deployment Center" blade in the App Service instance.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+7.Once the deployment is complete, you can access your website .
+## Technologies Used
+ ReactJS
+ 
+Azure App Service
 
-## Learn More
+@fortawesome/fontawesome-svg-core
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ @fortawesome/free-brands-svg-icons
+ 
+ @fortawesome/react-fontawesome
+ 
+ react-bootstrap
+ 
+ react-dom
+ 
+ react-scripts
+ 
+ web-vitals
+ 
+## Contact
+If you have any questions or suggestions, please feel free to contact me at mohamedkhayri.allala@ensi-uma.tn
