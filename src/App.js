@@ -2,8 +2,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      Hello everyone, what's up man ? am good 
+    <div >
+    <p>  Hello everyone, what's up man ? am good </p>
     </div>
   );
 }
