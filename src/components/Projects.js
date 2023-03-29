@@ -32,7 +32,7 @@ export const Projects = () => {
           <div className="skill">
             
             <div className="skill-description">I've developed my personnal website using React to share my work and profile .<br/> <b>KeyWords:</b>Web dev , React Js <br/> </div>
-            <a href="https://github.com/allalakhayri/PersonnalPortfolio" target="_blank" className="la" rel='noreferrer'><b>Github Link</b></a>
+            <a href="https://github.com/allalakhayri/Personnal_website" target="_blank" className="la" rel='noreferrer'><b>Github Link</b></a>
 
           </div>
           

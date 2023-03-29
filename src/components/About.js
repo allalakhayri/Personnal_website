@@ -31,7 +31,7 @@ export const About = ()=>{
             
          
                 </p>
-                <a href={cv} download="cv.pdf">Download CV</a>
+               <a href={cv} download="cv.pdf">Download CV</a> 
 
             </div>
           </div>
