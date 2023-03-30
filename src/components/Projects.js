@@ -35,6 +35,12 @@ export const Projects = () => {
             <a href="https://github.com/allalakhayri/Personnal_website" target="_blank" className="la" rel='noreferrer'><b>Github Link</b></a>
 
           </div>
+          <div className="skill">
+            
+            <div className="skill-description">I've developed a Machine Learning model <br/>that predicts the risk of students dropping <br/>out of university based on various features such as marital status, application mode, academic performance...<br/> <b>KeyWords:</b>ML , Python <br/> </div>
+            <a href="https://github.com/allalakhayri/Dropout-prediction-model-" target="_blank" className="la" rel='noreferrer'><b>Github Link</b></a>
+
+          </div>
           
           </div>
           

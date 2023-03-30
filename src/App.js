@@ -9,6 +9,7 @@ import { Projects } from './components/Projects'
 
 import {Footer} from'./components/Footer'
 import React from 'react'
+import { TopButton } from './components/TopButton'
 const images = [
   "../images/pic1.jpg",
   "../images/pic3.jpg",
@@ -33,6 +34,7 @@ const images = [
   <Certificates images={images}/>
   <Projects/>
   <Contact/>
+  <TopButton/>
   <Footer/> 
   
  </div> 

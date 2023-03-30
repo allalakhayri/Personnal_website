@@ -25,7 +25,7 @@ export const Skills = () => {
             alt="Skill 1"
             className="skill-image"
           />
-          <div className="skill-description">I participated in organising the annual forum of ENSI . It was such a fulfilling experience for me. I loved being able to flex my organizational skills to create an unforgettable experience for attendees.</div>
+          <div className="skill-description">I participated in organizing the annual forum of ENSI. It was such a fulfilling experience for me. I loved being able to flex my organizational skills to create an unforgettable experience for attendees.</div>
         </div>
         <div className="skill">
           <img
@@ -33,7 +33,7 @@ export const Skills = () => {
             alt="Skill 2"
             className="skill-image"
           />
-          <div className="skill-description">Me and my team from our participation in the Tunisian Collegiate Programming Contest(TCPC) .It was a good chance to expand my network and challenge my self by solving problems and coding. </div>
+          <div className="skill-description">Me and my team from our participation in the Tunisian Collegiate Programming Contest(TCPC). It was a good chance to expand my network and challenge myself by solving problems and coding. </div>
         </div>
         <div className="skill">
           <img
@@ -41,7 +41,7 @@ export const Skills = () => {
             alt="Skill 3"
             className="skill-image"
           />
-          <div className="skill-description">I've been an organisation commitee leader for 'TuniHack8.0'. We worked together effectively, and we were able to create a successful event that met everyone's expectations. Overall, my experience as a committee organization leader was likely both challenging and rewarding</div>
+          <div className="skill-description">I've been an organization committee leader for 'TuniHack8.0'. We worked together effectively, and we were able to host a successful event that met everyone's expectations. Overall, my experience as a committee organization leader was likely both challenging and rewarding.</div>
         </div>
         <div className="skill">
           <img
@@ -49,7 +49,7 @@ export const Skills = () => {
             alt="Skill 4"
             className="skill-image"
           />
-          <div className="skill-description">This is the final image for the Tunihack8.0 , it was a life-changing experience . I've expanded my network and developped my communication skills by meeting competitors from all over the country.</div>
+          <div className="skill-description">This is the final image for the Tunihack8.0, it was a life-changing experience. I've expanded my network and developed my communication skills by meeting competitors from all over the country.</div>
         </div>
         <div className="skill">
           <img
@@ -63,9 +63,9 @@ export const Skills = () => {
           <img
             src="../images/image5.jpg"
             alt="Skill 6"
-            className="skill-image"
+            className="skill-image-least"
           />
-          <div className="skill-description">I'm actually a projects manager at Open Source Software Ensi Club(OSSEC) . This experience did provide me with valuable skills and knowledge about open source culture . We did work as a team to introduce this culture to Freshmen at our institute .</div>
+          <div className="skill-description">I'm the projects manager at Open Source Software Ensi Club(OSSEC). This experience did provide me with valuable skills and knowledge about open-source culture. We did work as a team to introduce this culture to Freshmen at our institute.</div>
         </div>
         <div className="skill">
           <img
@@ -73,7 +73,25 @@ export const Skills = () => {
             alt="Skill 6"
             className="skill-image"
           />
-          <div className="skill-description">I'm actually a Beta Microsoft Learn Student Ambassador , a program that I've been part since 2021 . As part of my role as an MSA, I've been responsible for organizing events and activities in my community, such as hackathons, coding competitions, and workshops.</div>
+          <div className="skill-description">I'm a Beta Microsoft Learn Student Ambassador, a program that I've been part of since 2021 . As part of my role as an MSA, I've been responsible for organizing events and activities in my community, such as hackathons, coding competitions, and workshops.</div>
+        </div>
+        <div className="skill">
+          <img
+            src="../images/image8.jpg"
+            alt="Skill 8"
+            className="skill-image-last"
+          />
+          <div className="skill-description">I participated in the "Start it up" event focused on AI at Pristini School of AI .
+The event was a great opportunity to learn from industry leaders, network with like-minded individuals and gain insight into the latest trends and innovations in the field of Artificial Intelligence.</div>
+        </div>
+        <div className="skill">
+          <img
+            src="../images/image9.jpg"
+            alt="Skill 9"
+            className="skill-image-last"
+          />
+          <div className="skill-description">This is my swag kit from Microsoft Learn Student Ambassadors that I received after hosting my first event named "Introduction to cloud computing: Azure Services".
+        <br/> It was my first time explaining a concept to my institute fellows. </div>
         </div>
         
       </div>
