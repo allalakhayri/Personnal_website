@@ -18,8 +18,8 @@ export const About = ()=>{
               <div className="text"></div>
               <br/>
               <p>
-              "Hi there! My name is <b>Mohamed Khayri</b> and I'm a currently a computer science student at<b> National School 
-              of computer science in Tunisia </b> . 
+              "Hi, My name is <b>Mohamed Khayri</b> and I'm currently a computer science student at<b> National School 
+              of computer science in Tunisia. </b> . 
               I have a strong interest in the exciting and rapidly evolving fields of AI 
               and web development.<br/>
                I possess a deep passion for understanding the complex systems that underlie the digital world and 
@@ -27,7 +27,7 @@ export const About = ()=>{
                As a student of computer science, I have developed a solid foundation in the core concepts of <b>programming,
                 algorithms, and data structures</b> . I am well-versed in a range of programming languages, and am skilled in
                  developing software applications and systems that are both efficient and user-friendly.<br/>
-                 I am open for any kind of ideas exchange , so <b>let's get in touch </b> . 
+                 I am open to any kind of ideas exchange , so <b>let's get in touch </b> . 
             
          
                 </p>
