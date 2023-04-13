@@ -36,29 +36,34 @@ export const Contact = ()=>{
                 </div>
               </div>
             </div>
+
+
+
+
+
             <div className="column right">
-              <div className="text">Message me</div>
-              <form action="mailto:khayri.allala@outlook.fr" method="post" encType="text/plain">
-                <div className="fields">
-                  <div className="field name">
-                    <input type="text" placeholder="Name" required />
-                  </div>
-                  <div className="field email">
-                    <input type="email" placeholder="Email" required />
-                  </div>
-                </div>
-                <div className="field">
-                  <input type="text" placeholder="Subject" required />
-                </div>
-                <div className="field textarea">
-                  <textarea cols={30} rows={10} placeholder="Message.." required defaultValue={""} />
-                </div>
-                <div className="button-area">
-                  <button type="submit">Send message</button>
-                </div>
-              </form>
-            </div>
+            <div class="text">Message me</div>
+            <form method="post" action="/send-email">
+              <div class="fields">
+              <div class="field name">
+              <input type="text" name="name" placeholder="Name" required />
+              </div>
+            <div class="field email">
+            <input type="email" name="email" placeholder="Email" required />
           </div>
+          </div>
+           < div class="field">
+            <input type="text" name="subject" placeholder="Subject" required />
+          </div>
+            <div class="field textarea">
+         <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
+           </div>
+          <div class="button-area">
+         <button type="submit">Send message</button>
+          </div>
+           </form>
+        </div>
+        </div>
         </div>
       </section>
     )
