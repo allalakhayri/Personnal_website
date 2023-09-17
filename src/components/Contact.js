@@ -1,7 +1,25 @@
 import  "../App.css"
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 export const Contact = ()=>{
+  const form=useRef()
+  
+  const sendEmail = (e) => {
+    e.preventDefault();
+    console.log(form.current);
+
+    emailjs.sendForm('service_39d7s49', 'template_efrn2f8', form.current, 'vqoAFG7RTQdDDpEfa')
+      .then((result) => {
+        alert("Message sent successfully");
+
+      }, (error) => {
+       alert(error.text);
+      });
+      e.target.reset()
+  };
+
+
     return (
         <section className="contact" id="contact">
         <div className="max-width">
@@ -43,13 +61,14 @@ export const Contact = ()=>{
 
             <div className="column right">
             <div class="text">Message me</div>
-            <form method="post" action="/send-email">
+
+            <form method="post" ref={form} onSubmit={sendEmail}>
               <div class="fields">
               <div class="field name">
-              <input type="text" name="name" placeholder="Name" required />
+              <input type="text" name="user_name" placeholder="Name" required />
               </div>
             <div class="field email">
-            <input type="email" name="email" placeholder="Email" required />
+            <input type="email" name="user_email" placeholder="Email" required />
           </div>
           </div>
            < div class="field">
