@@ -3,10 +3,6 @@ import React, { useState, useRef } from "react";
 export function Certificates({ images }) {
   const [setCurrentImageIndex] = useState(0);
 
- 
-
-  
-
   const scrollContainerRef = useRef(null);
 
   const scrollToNextImage = () => {

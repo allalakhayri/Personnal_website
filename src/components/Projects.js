@@ -31,6 +31,12 @@ export const Projects = () => {
           </div>
           <div className="skill">
             
+            <div className="skill-description">I've developed an Android app to connect freelancers with clients .<br/> <b>KeyWords:</b>Mobile dev, Android,Kotlin <br/> </div>
+            <a href="https://github.com/allalakhayri/FreelanceFlow" target="_blank" className="la" rel='noreferrer'><b>Github Link</b></a>
+
+          </div>
+          <div className="skill">
+            
             <div className="skill-description">I've developed my personnal website using React to share my work and profile .<br/> <b>KeyWords:</b>Web dev , React Js <br/> </div>
             <a href="https://github.com/allalakhayri/Personnal_website" target="_blank" className="la" rel='noreferrer'><b>Github Link</b></a>
 

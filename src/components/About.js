@@ -18,17 +18,20 @@ export const About = ()=>{
               <div className="text"></div>
               <br/>
               <p>
-              "Hi, My name is <b>Mohamed Khayri</b> and I'm currently a computer science student at<b> National School 
-              of computer science in Tunisia. </b> . 
-              I have a strong interest in the exciting and rapidly evolving fields of AI 
-              and web development.<br/>
-               I possess a deep passion for understanding the complex systems that underlie the digital world and 
-               am committed to using my skills and knowledge to make a positive impact in these fields.<br/>
-               As a student of computer science, I have developed a solid foundation in the core concepts of <b>programming,
-                algorithms, and data structures</b> . I am well-versed in a range of programming languages, and am skilled in
-                 developing software applications and systems that are both efficient and user-friendly.<br/>
-                 I am open to any kind of ideas exchange , so <b>let's get in touch </b> . 
-            
+              
+  
+                 Hello, I'm <b>Mohamed Khayri</b>, and I'm studying computer science at <b>the National School of
+                 Computer Science in Tunisia. </b> <br/>
+                I'm passionate about <b>software development</b> field because it's dynamic and constantly evolving.<br/>
+                I love figuring out how computers and the internet work, 
+                and I am committed to using my skills and knowledge to make a 
+                positive impact in these fields. <br/>
+
+                In my computer science studies, I've learned about important things like<b> programming, algorithms, and data structures.</b>
+                <br/>
+                 I'm good at using different <b>programming languages</b>, and I can create software that works well and is easy for people to use.
+                <br/>
+                I'm happy to talk with anyone and exchange ideas, so <b>let's connect!</b>
          
                 </p>
                <a href={cv} download="cv.pdf">Download CV</a> 

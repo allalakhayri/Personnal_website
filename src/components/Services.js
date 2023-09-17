@@ -12,18 +12,18 @@ export const Services = ()=>{
                 <div className="text">Web <br/>developpement </div>
                 <p>I've been working on some projects in Web developpemnt field . 
                   I've been using HTML, CSS and JS then I developped some project using 
-                  ReactJs for frontend , NodeJs and express for backend and MongoDB as a database </p>
+                  ReactJs for frontend , NodeJs and Express for backend and MongoDB as a database </p>
                 
               </div>
             </div>
             <div className="card">
               <div className="box">
                 
-                <div className="text">Artificial<br/> Intelligence </div>
-                <p>I am actually a computer science student specialised in Aritificial Intelligence and 
-                  that's my main passion . I am active on Kaggle and I've participated in several 
-                  AI competitions and Hackathons </p>
-                  < a href="https://www.kaggle.com/mohamedkhayriallala" target="_blank" className="serv-link" rel='noreferrer'>Kaggle</a>
+                <div className="text">Mobile<br/> Development </div>
+                <p>During a summer internship, I gained valuable 
+                  experience by working on a mobile app designed specifically for freelancers. 
+                  <br/>My primary focus was on developing this app for Android devices. </p>
+                  < a href="https://www.github.com/allalakhayri" target="_blank" className="serv-link" rel='noreferrer'>Github</a>
 
               </div>
             </div>
