@@ -19,6 +19,14 @@ export const Skills = () => {
       <h2 className="title">My activities</h2>
     <div className="skills-container">
       <div className="skills-scroll-container" ref={scrollContainerRef}>
+      <div className="skill">
+          <img
+            src="../images/tunihack9.jpg"
+            alt="Skill 10"
+            className="skill-image-last"
+          />
+          <div className="skill-description">I participated in the "Tunihack 9.0" national event focused on the theme " Gamification X Innovation  within the finance domain, dedicated to innovating solutions within a tight 24-hour timeframe. </div>
+        </div>
         <div className="skill">
           <img
             src="../images/image1.jpg"
@@ -93,6 +101,7 @@ The event was a great opportunity to learn from industry leaders, network with l
           <div className="skill-description">This is my swag kit from Microsoft Learn Student Ambassadors that I received after hosting my first event named "Introduction to cloud computing: Azure Services".
         <br/> It was my first time explaining a concept to my institute fellows. </div>
         </div>
+        
         
       </div>
       <div className="skills-buttons">

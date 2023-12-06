@@ -36,6 +36,7 @@ return (
 		<div>
 			<footer className="foot">&copy; All rights reserved  2023</footer>
 		</div>
+		
 	</div>
 	
 );

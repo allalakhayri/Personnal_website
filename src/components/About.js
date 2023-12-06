@@ -8,6 +8,7 @@ export const About = ()=>{
 
     return (
         <section className="about" id="about">
+          
         <div className="max-width">
           <h2 className="title">About me</h2>
           <div className="about-content">
@@ -39,6 +40,8 @@ export const About = ()=>{
             </div>
           </div>
         </div>
+              
       </section>
+      
     )
 }
