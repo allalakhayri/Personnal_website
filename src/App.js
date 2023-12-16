@@ -18,7 +18,8 @@ const images = [
   "../images/pic6.jpg",
   "../images/pic7.jpg",
   "../images/pic8.jpg",
-  "../images/pic9.jpg"
+  "../images/pic9.jpg",
+  "../images/pic10.jpg"
 ];
 
  const App = ()=>{
