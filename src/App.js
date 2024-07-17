@@ -10,6 +10,7 @@ import { Projects } from './components/Projects'
 import {Footer} from'./components/Footer'
 import React from 'react'
 import { TopButton } from './components/TopButton'
+import { Experience } from './components/Experience'
 const images = [
   "../images/pic1.jpg",
   "../images/pic3.jpg",
@@ -34,6 +35,7 @@ const images = [
   <About/>
   <Skills /> 
   <Services/>
+  <Experience/>
   <Certificates images={images}/>
   <Projects/>
   <Contact/>

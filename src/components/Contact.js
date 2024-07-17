@@ -27,8 +27,9 @@ export const Contact = ()=>{
           <div className="contact-content">
             <div className="column left">
               <div className="text">Get in Touch</div>
-              <p>I'm extremely open to any kind of ideas exchange.<br/>So feel free to contact me .</p>
-              <div className="icons">
+              <b/>I am currently looking for a Frontend, or Full Stack developer role.
+              Send me a mail or reach out to me on Twitter or Linkedin and I will get back to you as soon as possible. I am looking forward to hearing from you.  <b/>
+                          <div className="icons">
                 <div className="row">
                   <i className="fas fa-user" />
                   <div className="info">
@@ -49,7 +50,7 @@ export const Contact = ()=>{
                   <div className="info">
                     <div className="head">Emails</div>
                     <div className="sub-title">mohamedkhayri.allala@ensi-uma.tn</div>
-                    <div className="sub-title">khayri.allala@outlook.fr</div>
+                    
                   </div>
                 </div>
               </div>

@@ -835,3 +835,288 @@ section .title::after{
         line-height: 38px;
     }
 }
+
+/* Project links styling */
+.skill .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .skill .links .la {
+    color: #112D4E;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .skill .links .la.demo {
+    margin-left: 15px;
+    color: #3F72AF;
+    text-decoration: underline;
+  }
+  
+  .skill .links .la:hover {
+    color: #3F72AF;
+  }
+  
+  .skill .links .la.demo:hover {
+    color: #112D4E;
+  }
+  
+  /* Project cards container */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 20px;
+  }
+  
+  /* Project card styling */
+  .project-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px;
+  }
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-title {
+    font-size: 22px;
+    margin: 15px;
+    color: #112D4E;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .project-description {
+    font-size: 16px;
+    margin: 15px;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .project-keywords {
+    font-size: 14px;
+    margin: 15px;
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 15px;
+  }
+  
+  .links .la {
+    color: #112D4E;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .links .la.demo {
+    margin-left: 15px;
+    color: #3F72AF;
+    text-decoration: underline;
+  }
+  
+  .links .la:hover {
+    color: #3F72AF;
+  }
+  
+  .links .la.demo:hover {
+    color: #112D4E;
+  }
+  
+  /* Responsive design for project cards */
+  @media (max-width: 991px) {
+    .project-card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 690px) {
+    .project-card {
+      width: 100%;
+    }
+  }
+  
+  
+
+  /* Home section styling */
+.home {
+  display: flex;
+  background: url("./banner.jpg") no-repeat center;
+  height: 100vh;
+  color: #fff;
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px; /* Add padding to the sides */
+}
+.home .home-content {
+  text-align: left;
+  margin-left: 20px; /* Align content to the left */
+}
+.home .text-1 {
+  font-size: 47px;
+  font-weight: 600;
+  color: #112D4E;
+}
+.home .text-2 {
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+.home .text-3 {
+  font-size: 40px;
+  margin: 5px 0;
+  color: black;
+}
+.home .text-3 span {
+  color: #112D4E;
+  font-weight: 500;
+}
+.home .home-content a {
+  display: inline-block;
+  background: #112D4E;
+  color: #fff;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  font-weight: 400;
+  border-radius: 6px;
+  border: 2px solid #112D4E;
+  transition: all 0.3s ease;
+}
+.home .home-content a:hover {
+  color: #112D4E;
+  background: none;
+}
+
+/* Social links styling */
+.social-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start; /* Align links to the left */
+  gap: 20px;
+}
+.social-links a {
+  color: #112D4E;
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+.social-links a:hover {
+  color: #3F72AF;
+}
+
+/* Announcement bar styling */
+.announcement {
+  background-color: #112D4E;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
+.announcement p {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+  color: #ff0000;
+}
+
+/* Experience section styling */
+.experience {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+.experience .title {
+  text-align: center;
+  font-size: 36px;
+  color: #3F72AF;
+  margin-bottom: 40px;
+}
+.experience .title::after{
+  background: white;
+  content: "where I worked";
+}
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experience-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #5587c3;
+}
+
+.experience-company {
+  font-size: 18px;
+  color: #666;
+}
+
+.experience-duration {
+  font-size: 16px;
+  color: #888;
+}
+
+.experience-description {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
+
+
+/* Font Awesome CDN (include this in your HTML file or import it in your project) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');

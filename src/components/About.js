@@ -18,23 +18,15 @@ export const About = ()=>{
             <div className="column right">
               <div className="text"></div>
               <br/>
-              <p>
-              
-  
-                 Hello, I'm <b>Mohamed Khayri</b>, and I'm studying computer science at <b>the National School of
-                 Computer Science in Tunisia. </b> <br/>
-                I'm passionate about <b>software development</b> field because it's dynamic and constantly evolving.<br/>
-                I love figuring out how computers and the internet work, 
-                and I am committed to using my skills and knowledge to make a 
-                positive impact in these fields. <br/>
 
-                In my computer science studies, I've learned about important things like<b> programming, algorithms, and data structures.</b>
-                <br/>
-                 I'm good at using different <b>programming languages</b>, and I can create software that works well and is easy for people to use.
-                <br/>
-                I'm happy to talk with anyone and exchange ideas, so <b>let's connect!</b>
-         
-                </p>
+
+                Hello there! 👋, I am a passionate <b>Software Developer</b> with an eye for creating robust and scalable websites and web applications. 
+                I enjoy using my expertise in front-end and back-end technology to bring creative ideas to life. <br/>
+
+I am still on the journey of learning and discovering new things in the world of tech.<br/>
+
+Other of my hobbies include reading, discovering and learning new things, playing computer games, movies and music.
+<br/>
                <a href={cv} download="cv.pdf">Download CV</a> 
 
             </div>

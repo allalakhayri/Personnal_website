@@ -28,7 +28,7 @@ return (
 		<a href="https://twitter.com/MedKhayri1"  target="_blank" className="twitter social" rel='noreferrer'>
 		<FontAwesomeIcon icon={faTwitter} size="3x" />
 		</a>
-		<a href="https://www.linkedin.com/in/mohamed-khayri-allala-3a431721b/" target="_blank" rel='noreferrer'
+		<a href="https://www.linkedin.com/in/mohamed-khayri-allala/" target="_blank" rel='noreferrer'
 		className="linkedin social">
 		<FontAwesomeIcon icon={faLinkedin} size="3x" />
 		</a>

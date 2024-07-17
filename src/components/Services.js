@@ -13,7 +13,8 @@ export const Services = ()=>{
                 <p>I've been working on some projects in Web developpemnt field . 
                   I've been using HTML, CSS and JS then I developped some project using 
                   ReactJs for frontend , NodeJs and Express for backend and MongoDB as a database </p>
-                
+                  < a href="https://www.github.com/allalakhayri" target="_blank" className="serv-link" rel='noreferrer'>Github</a>
+
               </div>
             </div>
             <div className="card">
@@ -34,7 +35,7 @@ export const Services = ()=>{
                 <div className="text">Competitive Porgramming</div>
                 <p>I am also intersted in competitive programming. 
                   I participated in Tunisian Collegiate Programming Contest (TCPC) in 2021 and since then 
-                  I've been active on Codeforces platform.
+                  I've been active on Codeforces & LeetCode platforms.
                 </p>
                 < a href="https://codeforces.com/profile/kh_99" target="_blank" className="serv-link" rel='noreferrer'>Codeforces</a>
               </div>
