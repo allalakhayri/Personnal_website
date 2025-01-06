@@ -1,6 +1,6 @@
 import  "../App.css"
 import React from 'react'
-import logo from '../images/profile-pic.png'
+
 import cv from "./cv.pdf"; 
 
 
@@ -13,7 +13,7 @@ export const About = ()=>{
           <h2 className="title">About me</h2>
           <div className="about-content">
             <div className="column left">
-              <img src={logo} alt="me" />
+            <img src={`${process.env.PUBLIC_URL}/images/profile-pic.png`} alt="me" />
             </div>
             <div className="column right">
               <div className="text"></div>
