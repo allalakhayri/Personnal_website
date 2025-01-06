@@ -1,6 +1,6 @@
 import  "../App.css"
 import React from 'react'
-import logo from '../images/profile-pic.jpg'
+import logo from '../images/profile-pic.png'
 import cv from "./cv.pdf"; 
 
 
